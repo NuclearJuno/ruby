@@ -1,0 +1,3 @@
+# Adicionar, Editar, Remover Contatos;
+# Contatos terão as seguintes informações; nome telefone;
+# Podemos ver todos os contatos registrados ou somente um contato;
