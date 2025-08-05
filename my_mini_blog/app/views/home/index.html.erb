@@ -1,0 +1,11 @@
+<h1>Meu Primeiro mini blog em ruby on rails</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+
+<% @posts.each do |post|%>
+    <%if post.description?%>
+        <h1> <%= post.title %> </h1> 
+        <%= link_to "Show this post", post %>
+    <%end%>
+<% end %>
+
+<%= link_to "Posts", posts_path%>

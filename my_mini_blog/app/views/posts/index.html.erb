@@ -1,8 +1,8 @@
-<p style="color: green"><%= notice %></p>
+<p style="color: green"><%= notice %></p> <%# mensagem de notificação pra alteração ou destruição do post#%>
 
 <% content_for :title, "Posts" %>
 
-<h1>Posts do Junior</h1>
+<h1>Posts do Dicksom</h1>
 
 <div id="posts">
   <% @posts.each do |post| %>
@@ -14,3 +14,4 @@
 </div>
 
 <%= link_to "New post", new_post_path %>
+<%= link_to "Home", home_index_path%>
